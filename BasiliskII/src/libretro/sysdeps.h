@@ -97,7 +97,7 @@ typedef intptr_t intptr;
 
 
 #ifndef HAVE_LOFF_T
-typedef off_t loff_t;
+//typedef off_t loff_t; //Removed this as it seemed dumb and broke build <- 17nov18.
 #endif
 #ifndef HAVE_CADDR_T
 typedef char * caddr_t;
